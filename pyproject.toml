@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "itsagas"
+version = "0.0.1"
+description = "itsagame"
+authors = [
+	{ name = "Jonas Sundstrom", email = "jonas@kirilla.se" }
+]
+license = { file = "LICENSE" }
+dependencies = []
+classifiers = []
+
+[project.entry-points.console_scripts]
+itsagas = "itsagas.main:main"
